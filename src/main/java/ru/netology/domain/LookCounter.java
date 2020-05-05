@@ -3,5 +3,11 @@ package ru.netology.domain;
 public class LookCounter {
     public int lookCounter;
 
-    // + get/set на все поля
+    public int getLookCounter() {
+        return lookCounter;
+    }
+
+    public void setLookCounter(int lookCounter) {
+        this.lookCounter = lookCounter;
+    }
 }
